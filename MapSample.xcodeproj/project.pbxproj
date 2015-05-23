@@ -14,6 +14,7 @@
 		21378A271B0FA926000A0002 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21378A261B0FA926000A0002 /* Images.xcassets */; };
 		21378A2A1B0FA926000A0002 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21378A281B0FA926000A0002 /* LaunchScreen.xib */; };
 		21378A361B0FA926000A0002 /* MapSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21378A351B0FA926000A0002 /* MapSampleTests.m */; };
+		21B8C74F1B10627D0097EB67 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B8C74E1B10627D0097EB67 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		21378A2F1B0FA926000A0002 /* MapSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21378A341B0FA926000A0002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21378A351B0FA926000A0002 /* MapSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapSampleTests.m; sourceTree = "<group>"; };
+		21B8C74E1B10627D0097EB67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B8C74F1B10627D0097EB67 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		21378A0D1B0FA926000A0002 = {
 			isa = PBXGroup;
 			children = (
+				21B8C74E1B10627D0097EB67 /* MapKit.framework */,
 				21378A181B0FA926000A0002 /* MapSample */,
 				21378A321B0FA926000A0002 /* MapSampleTests */,
 				21378A171B0FA926000A0002 /* Products */,
@@ -414,6 +418,7 @@
 				21378A3B1B0FA926000A0002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21378A3C1B0FA926000A0002 /* Build configuration list for PBXNativeTarget "MapSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				21378A3E1B0FA926000A0002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
